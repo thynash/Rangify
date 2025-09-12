@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-KolamAI Startup Script
+Rangify Startup Script
 Easy launcher for SIH demonstration
 """
 
@@ -39,7 +39,7 @@ def check_data_directory():
 def main():
     """Main startup function"""
     
-    print("🕸️ KolamAI - SIH Problem Statement ID25107 Solution")
+    print("🕸️ Rangify - SIH Problem Statement ID25107 Solution")
     print("=" * 60)
     
     # Check Python version
@@ -95,7 +95,7 @@ def main():
 def launch_web_app():
     """Launch the Streamlit web application"""
     
-    print("\n🌐 Launching KolamAI Web Application...")
+    print("\n🌐 Launching Rangify Web Application...")
     print("📍 URL: http://localhost:8501")
     print("⚠️ Press Ctrl+C to stop the server")
     print("-" * 40)
@@ -110,7 +110,7 @@ def launch_web_app():
 def launch_cli():
     """Launch command line interface"""
     
-    print("\n💻 KolamAI Command Line Interface")
+    print("\n💻 Rangify Command Line Interface")
     print("Available commands:")
     print("  python main.py analyze --input <image> --verbose")
     print("  python main.py generate --symmetry radial --style tamil")
@@ -120,7 +120,7 @@ def launch_cli():
 def run_demo():
     """Run complete demonstration"""
     
-    print("\n🎪 Running Complete KolamAI Demo...")
+    print("\n🎪 Running Complete Rangify Demo...")
     
     try:
         subprocess.run([sys.executable, "main.py", "demo", "--input", "data", "--output", "demo_results"])
@@ -161,7 +161,7 @@ def run_quick_test():
                 pattern = analyzer.analyze_image(str(sample_images[0]))
                 print(f"✅ Analysis works - detected {pattern.symmetry_type} symmetry")
         
-        print("\n🎉 All tests passed! KolamAI is ready for SIH demo.")
+        print("\n🎉 All tests passed! Rangify is ready for SIH demo.")
         
     except Exception as e:
         print(f"❌ Test failed: {e}")

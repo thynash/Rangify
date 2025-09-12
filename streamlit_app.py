@@ -675,55 +675,49 @@ def show_home_page():
     
     with col1:
         st.markdown("""
-        <div class="action-card">
-            <h4 style="color: #1e40af; margin-bottom: 1rem;">🧮 Mathematical Analysis</h4>
-            <ul style="margin: 0; padding-left: 1.2rem; color: #475569;">
+        <div class="action-card" style="padding: 1rem; margin-bottom: 1rem;">
+            <h4 style="color: #1e40af; margin-bottom: 0.5rem;">🧮 Mathematical Analysis</h4>
+            <ul style="margin: 0; padding-left: 1rem; color: #475569; font-size: 0.9rem;">
                 <li>Symmetry detection (radial, bilateral, rotational)</li>
                 <li>Fractal dimension calculation</li>
                 <li>Golden ratio and geometric proportion analysis</li>
-                <li>Information theory and complexity measures</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
         
         st.markdown("""
-        <div class="action-card">
-            <h4 style="color: #1e40af; margin-bottom: 1rem;">🏛️ Cultural Recognition</h4>
-            <ul style="margin: 0; padding-left: 1.2rem; color: #475569;">
-                <li><strong>Tamil Kolam:</strong> Continuous lines, lotus motifs</li>
-                <li><strong>Andhra Muggu:</strong> Geometric patterns, borders</li>
-                <li><strong>Karnataka Rangoli:</strong> Colorful florals, vines</li>
-                <li><strong>Kerala Patterns:</strong> Organic curves, lamps</li>
+        <div class="action-card" style="padding: 1rem; margin-bottom: 1rem;">
+            <h4 style="color: #1e40af; margin-bottom: 0.5rem;">⚡ Performance</h4>
+            <ul style="margin: 0; padding-left: 1rem; color: #475569; font-size: 0.9rem;">
+                <li>Real-time analysis (< 2 seconds per image)</li>
+                <li>Batch processing (150+ images/minute)</li>
+                <li>94.2% symmetry detection accuracy</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
     
     with col2:
         st.markdown("""
-        <div class="action-card">
-            <h4 style="color: #1e40af; margin-bottom: 1rem;">⚡ Performance</h4>
-            <ul style="margin: 0; padding-left: 1.2rem; color: #475569;">
-                <li>Real-time analysis (< 2 seconds per image)</li>
-                <li>Batch processing (150+ images/minute)</li>
-                <li>94.2% symmetry detection accuracy</li>
-                <li>89.7% cultural classification accuracy</li>
+        <div class="action-card" style="padding: 1rem; margin-bottom: 1rem;">
+            <h4 style="color: #1e40af; margin-bottom: 0.5rem;">🎯 Generation Features</h4>
+            <ul style="margin: 0; padding-left: 1rem; color: #475569; font-size: 0.9rem;">
+                <li>Authentic cultural style generation</li>
+                <li>Adjustable complexity levels</li>
+                <li>Multiple color schemes and exports</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
         
         st.markdown("""
-        <div class="action-card">
-            <h4 style="color: #1e40af; margin-bottom: 1rem;">🎯 Generation Features</h4>
-            <ul style="margin: 0; padding-left: 1.2rem; color: #475569;">
-                <li>Authentic cultural style generation</li>
-                <li>Adjustable complexity levels</li>
-                <li>Multiple color schemes</li>
-                <li>Pattern variations and exports</li>
+        <div class="action-card" style="padding: 1rem; margin-bottom: 1rem;">
+            <h4 style="color: #1e40af; margin-bottom: 0.5rem;">🏛️ Cultural Recognition</h4>
+            <ul style="margin: 0; padding-left: 1rem; color: #475569; font-size: 0.9rem;">
+                <li><strong>Tamil:</strong> Continuous lines, lotus motifs</li>
+                <li><strong>Andhra:</strong> Geometric patterns, borders</li>
+                <li><strong>Karnataka:</strong> Colorful florals, vines</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
-    
-
     
     # Footer
     st.markdown("---")
@@ -732,21 +726,6 @@ def show_home_page():
         <p>Preserving Cultural Heritage Through Technology | Powered by Rangify</p>
     </div>
     """, unsafe_allow_html=True)
-    
-    with col2:
-        st.markdown("""
-        <div class="action-card">
-            <h4 style="color: #00ffff; margin-bottom: 1rem;">🎯 Advanced AI Technology</h4>
-            <p style="color: #e2e8f0; margin: 0;">State-of-the-art computer vision and machine learning algorithms for precise pattern analysis and generation.</p>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        st.markdown("""
-        <div class="action-card">
-            <h4 style="color: #00ffff; margin-bottom: 1rem;">🏛️ Cultural Authenticity</h4>
-            <p style="color: #e2e8f0; margin: 0;">Preserves traditional design principles while enabling creative exploration of Kolam patterns.</p>
-        </div>
-        """, unsafe_allow_html=True)
 
 def show_analysis_page():
     """Display pattern analysis page"""
@@ -1626,10 +1605,10 @@ def show_sample_mathematical_principles():
 def show_live_demo_page():
     """Display live demonstration page"""
     
-    st.markdown('<h2 class="sub-header">🚀 Live KolamAI Demonstration</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 class="sub-header">🚀 Live Rangify Demonstration</h2>', unsafe_allow_html=True)
     
     st.markdown("""
-    Experience the full power of KolamAI with our comprehensive live demonstration. 
+    Experience the full power of Rangify with our comprehensive live demonstration. 
     This showcases all major features in an integrated workflow.
     """)
     

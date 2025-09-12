@@ -1,5 +1,5 @@
 @echo off
-echo 🕸️ KolamAI - SIH Problem Statement ID25107 Solution
+echo 🕸️ Rangify - SIH Problem Statement ID25107 Solution
 echo ============================================================
 
 REM Check if Python is installed
@@ -13,24 +13,24 @@ if errorlevel 1 (
 echo ✅ Python found
 
 REM Check if virtual environment exists
-if not exist "kolamai_env" (
+if not exist "rangify_env" (
     echo 🔧 Creating virtual environment...
-    python -m venv kolamai_env
+    python -m venv rangify_env
 )
 
 REM Activate virtual environment
 echo 🔧 Activating virtual environment...
-call kolamai_env\Scripts\activate.bat
+call rangify_env\Scripts\activate.bat
 
 REM Install requirements if needed
-if not exist "kolamai_env\Lib\site-packages\streamlit" (
+if not exist "rangify_env\Lib\site-packages\streamlit" (
     echo 📦 Installing requirements...
     pip install --upgrade pip
     pip install -r requirements.txt
 )
 
-REM Launch KolamAI
-echo 🚀 Launching KolamAI...
+REM Launch Rangify
+echo 🚀 Launching Rangify...
 python start_kolamai.py
 
 pause

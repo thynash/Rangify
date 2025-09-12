@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🕸️ KolamAI - SIH Problem Statement ID25107 Solution"
+echo "🕸️ Rangify - SIH Problem Statement ID25107 Solution"
 echo "============================================================"
 
 # Check if Python is installed
@@ -12,22 +12,28 @@ fi
 echo "✅ Python3 found"
 
 # Check if virtual environment exists
-if [ ! -d "kolamai_env" ]; then
+if [ ! -d "rangify_env" ]; then
     echo "🔧 Creating virtual environment..."
-    python3 -m venv kolamai_env
+    python3 -m venv rangify_env
 fi
 
 # Activate virtual environment
 echo "🔧 Activating virtual environment..."
-source kolamai_env/bin/activate
+source rangify_env/bin/activate
 
 # Install requirements if needed
-if [ ! -f "kolamai_env/lib/python*/site-packages/streamlit" ]; then
+if [ ! -f "rangify_env/lib/python*/site-packages/streamlit" ]; then
     echo "📦 Installing requirements..."
     pip install --upgrade pip
     pip install -r requirements.txt
 fi
 
-# Launch KolamAI
-echo "🚀 Launching KolamAI..."
-python3 start_kolamai.py
+# Launch Rangify
+echo "🚀 Launching Rangify - Kolam Pattern Studio..."
+echo "🌐 Local URL: http://localhost:8501"
+echo "🌐 Network URL: http://0.0.0.0:8501"
+echo "⏹️  Press Ctrl+C to stop the application"
+echo "============================================================"
+
+# Run Streamlit with network access
+streamlit run streamlit_app.py --server.address=0.0.0.0 --server.port=8501

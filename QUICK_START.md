@@ -1,4 +1,4 @@
-# 🚀 KolamAI - Quick Start Guide
+# 🚀 Rangify - Quick Start Guide
 
 ## SIH Problem Statement ID25107 Solution
 

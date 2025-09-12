@@ -1,4 +1,4 @@
-# 🕸️ KolamAI - Advanced Pattern Analysis & Generation System
+# 🕸️ Rangify - Advanced Pattern Analysis & Generation System
 
 **SIH Problem Statement ID25107 Solution**
 
@@ -6,7 +6,7 @@
 
 ## 🎯 Project Overview
 
-KolamAI is a comprehensive computer vision and machine learning system that analyzes traditional Indian Kolam/Rangoli patterns to identify mathematical principles and recreate authentic designs. Our solution combines advanced image processing, mathematical analysis, and cultural knowledge to understand and generate these beautiful geometric patterns.
+Rangify is a comprehensive computer vision and machine learning system that analyzes traditional Indian Kolam/Rangoli patterns to identify mathematical principles and recreate authentic designs. Our solution combines advanced image processing, mathematical analysis, and cultural knowledge to understand and generate these beautiful geometric patterns.
 
 ## 🏆 Key Features
 
@@ -43,7 +43,7 @@ KolamAI is a comprehensive computer vision and machine learning system that anal
 ## 📁 Project Structure
 
 ```
-KolamAI/
+Rangify/
 ├── 📊 data/                          # Original Kolam images (115 Rangoli patterns)
 ├── 🔧 Augmentation/                  # Data augmentation system
 │   ├── kolam_augmentation.py         # Advanced augmentation engine
@@ -76,12 +76,12 @@ KolamAI/
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd KolamAI
+cd Rangify
 
 # Create virtual environment (recommended)
-python -m venv kolamai_env
-# Windows: kolamai_env\Scripts\activate
-# Linux/Mac: source kolamai_env/bin/activate
+python -m venv rangify_env
+# Windows: rangify_env\Scripts\activate
+# Linux/Mac: source rangify_env/bin/activate
 
 # Install dependencies
 pip install --upgrade pip
@@ -157,14 +157,14 @@ python main.py augment --input-dir data --output-dir augmented --target-count 10
 web: streamlit run streamlit_app.py --server.port=$PORT --server.address=0.0.0.0
 
 # Deploy
-heroku create kolamai-sih
+heroku create rangify-sih
 git push heroku main
 ```
 
 #### Docker
 ```bash
-docker build -t kolamai .
-docker run -p 8501:8501 kolamai
+docker build -t rangify .
+docker run -p 8501:8501 rangify
 ```
 
 ### 📱 Mobile Access
@@ -329,6 +329,6 @@ For detailed technical documentation, API references, and examples, please refer
 
 ---
 
-**🏆 Built for SIH 2024 - Preserving Cultural Heritage Through Technology**
+**🏆 Built for SIH 2025 - Preserving Cultural Heritage Through Technology**
 
-*KolamAI represents the perfect fusion of traditional Indian art, mathematical principles, and modern computer science - creating a system that not only analyzes but truly understands the beauty and complexity of Kolam patterns.*
+*Rangify represents the perfect fusion of traditional Indian art, mathematical principles, and modern computer science - creating a system that not only analyzes but truly understands the beauty and complexity of Kolam patterns.*

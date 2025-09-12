@@ -1,4 +1,4 @@
-# 🏆 KolamAI - SIH 2024 Submission Guide
+# 🏆 Rangify - SIH 2025 Submission Guide
 
 ## Problem Statement ID25107
 **Title**: Develop computer programs (in any language, preferably Python) to identify the design principles behind the Kolam designs and recreate the kolams.
@@ -10,9 +10,9 @@
 
 ---
 
-## 🎯 Our Solution: KolamAI
+## 🎯 Our Solution: Rangify
 
-KolamAI is a comprehensive AI-powered system that revolutionizes the analysis and generation of traditional Indian Kolam/Rangoli patterns through advanced computer vision, mathematical analysis, and cultural preservation.
+Rangify is a comprehensive AI-powered system that revolutionizes the analysis and generation of traditional Indian Kolam/Rangoli patterns through advanced computer vision, mathematical analysis, and cultural preservation.
 
 ## 🚀 Quick Demo Instructions
 
@@ -104,7 +104,7 @@ python main.py web --port 8501
 
 ## 📁 Project Structure
 ```
-KolamAI/
+Rangify/
 ├── 🏠 Core System
 │   ├── streamlit_app.py          # Web application
 │   ├── kolam_analyzer.py         # Analysis engine
@@ -182,7 +182,7 @@ KolamAI/
 
 ## 🎤 Elevator Pitch
 
-*"KolamAI solves SIH Problem Statement ID25107 by creating the world's first comprehensive AI system for Kolam analysis and generation. We don't just recognize patterns - we understand the mathematical principles and cultural rules that govern these ancient designs. Our system achieves 94.2% accuracy in symmetry detection, extracts 15+ mathematical principles, and generates authentic new patterns while preserving cultural heritage. With a production-ready web interface and the ability to process 150+ images per minute, KolamAI bridges the gap between traditional art and modern technology."*
+*"Rangify solves SIH Problem Statement ID25107 by creating the world's first comprehensive AI system for Kolam analysis and generation. We don't just recognize patterns - we understand the mathematical principles and cultural rules that govern these ancient designs. Our system achieves 94.2% accuracy in symmetry detection, extracts 15+ mathematical principles, and generates authentic new patterns while preserving cultural heritage. With a production-ready web interface and the ability to process 150+ images per minute, Rangify bridges the gap between traditional art and modern technology."*
 
 ## 📞 Support & Contact
 
@@ -202,6 +202,6 @@ For technical support during evaluation:
 
 ---
 
-**🕸️ KolamAI - Where Ancient Wisdom Meets Modern AI**
+**🕸️ Rangify - Where Ancient Wisdom Meets Modern AI**
 
 *Preserving Cultural Heritage Through Technology*

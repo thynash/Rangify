@@ -1,8 +1,8 @@
-# 🚀 KolamAI Deployment Guide
+# 🚀 Rangify Deployment Guide
 
 ## SIH Problem Statement ID25107 - Complete Deployment Instructions
 
-This guide provides comprehensive instructions for deploying KolamAI locally and on cloud platforms.
+This guide provides comprehensive instructions for deploying Rangify locally and on cloud platforms.
 
 ## 📋 Prerequisites
 
@@ -17,19 +17,19 @@ This guide provides comprehensive instructions for deploying KolamAI locally and
 
 ```bash
 git clone <your-repository-url>
-cd KolamAI
+cd Rangify
 ```
 
 ### 2. Create Virtual Environment
 
 ```bash
 # Windows
-python -m venv kolamai_env
-kolamai_env\Scripts\activate
+python -m venv rangify_env
+rangify_env\Scripts\activate
 
 # Linux/Mac
-python3 -m venv kolamai_env
-source kolamai_env/bin/activate
+python3 -m venv rangify_env
+source rangify_env/bin/activate
 ```
 
 ### 3. Install Dependencies
@@ -108,7 +108,7 @@ python main.py augment --input-dir data --output-dir augmented --target-count 10
 1. **Push to GitHub**:
    ```bash
    git add .
-   git commit -m "KolamAI SIH Solution"
+   git commit -m "Rangify SIH Solution"
    git push origin main
    ```
 
@@ -127,7 +127,7 @@ python main.py augment --input-dir data --output-dir augmented --target-count 10
 
 2. **Deploy**:
    ```bash
-   heroku create kolamai-sih
+   heroku create rangify-sih
    git push heroku main
    ```
 
@@ -150,8 +150,8 @@ python main.py augment --input-dir data --output-dir augmented --target-count 10
 
 2. **Build and Run**:
    ```bash
-   docker build -t kolamai .
-   docker run -p 8501:8501 kolamai
+   docker build -t rangify .
+   docker run -p 8501:8501 rangify
    ```
 
 ### AWS EC2 Deployment
@@ -163,13 +163,13 @@ python main.py augment --input-dir data --output-dir augmented --target-count 10
    sudo apt update
    sudo apt install python3-pip git -y
    git clone <your-repo>
-   cd KolamAI
+   cd Rangify
    pip3 install -r requirements.txt
    ```
 
 3. **Run with Screen**:
    ```bash
-   screen -S kolamai
+   screen -S rangify
    python3 main.py web --host 0.0.0.0 --port 8501
    # Press Ctrl+A, then D to detach
    ```
@@ -329,4 +329,4 @@ For deployment issues:
 
 ---
 
-**Ready to dominate SIH 2024! 🚀**
+**Ready to dominate SIH 2025! 🚀**

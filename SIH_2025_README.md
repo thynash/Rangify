@@ -1,4 +1,4 @@
-# 🕸️ Rangify - AI-Powered Kolam Pattern Studio
+# 🕸️ KolamAI - AI-Powered Kolam Pattern Studio
 ## Smart India Hackathon 2025 Submission
 
 ---
@@ -24,7 +24,7 @@
 **[Your Registered Team Name]**
 
 ### Idea Title
-**Rangify - AI-Powered Kolam Pattern Analysis & Generation Studio**
+**KolamAI - AI-Powered Kolam Pattern Analysis & Generation Studio**
 
 ---
 
@@ -291,7 +291,7 @@ Cultural Knowledge Base ← → Pattern Database ← → Validation System
 ### Quick Start Instructions
 ```bash
 git clone [repository-url]
-cd Rangify
+cd KolamAI
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
