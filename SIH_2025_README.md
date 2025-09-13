@@ -1,4 +1,4 @@
-# 🕸️ KolamAI - AI-Powered Kolam Pattern Studio
+# 🕸️ Rangify - AI-Powered Kolam Pattern Studio
 ## Smart India Hackathon 2025 Submission
 
 ---
@@ -21,10 +21,10 @@
 **[Your Team ID Here]**
 
 ### Team Name
-**[Your Registered Team Name]**
+Hexcore
 
 ### Idea Title
-**KolamAI - AI-Powered Kolam Pattern Analysis & Generation Studio**
+**Rangify - AI-Powered Kolam Pattern Analysis & Generation Studio**
 
 ---
 
